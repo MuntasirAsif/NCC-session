@@ -13,7 +13,7 @@
 * basic understand of flutter project structure
 * basic understand of main.dart file
 
-## 2nd Session
+## 3rd Session
 * Scaffold
 * App bar
 * Body
