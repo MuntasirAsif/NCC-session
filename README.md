@@ -12,3 +12,17 @@
 * create new flutter project
 * basic understand of flutter project structure
 * basic understand of main.dart file
+
+## 2nd Session
+* Scaffold
+* App bar
+* Body
+* Text 
+* color
+* Contaier
+* padding
+* margin
+* Image
+* list tile
+* Circle Avater
+
