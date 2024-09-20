@@ -9,6 +9,7 @@ class AppDev extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    String title = 'Niter NCC';
     return Scaffold(
       backgroundColor: Colors.blue,
       appBar: AppBar(
@@ -25,19 +26,25 @@ class AppDev extends StatelessWidget {
           textAlign: TextAlign.right,
         ),
       ),
-      body: Container(
-        margin: EdgeInsets.all(5),
-        decoration: BoxDecoration(
-            color: Colors.yellow, borderRadius: BorderRadius.circular(20)),
-        child: const ListTile(
-          leading: Image(
-              image: NetworkImage(
-                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwYDDEpNkrBW6rqm_pppcOIKN_my-O7ao8yaoBS7FSW9Ofv-cwOHLQKZG5P38G4SYk9_RDXaA9cw6Cm4S0xzisvxoi7zmfJk3_Nk5eGGY')),
-          title: Text('Muntasir'),
-          subtitle: Text("hi i'm muntASIR"),
-          trailing: Icon(Icons.menu),
-        ),
-      ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('Niter',style: TextStyle(fontSize: 30),),
+          SizedBox(
+            height: 50,
+          ),
+          Row(
+            children: [
+              Text('Ncc',style: TextStyle(fontSize: 30),),
+              SizedBox(
+                width: 30,
+              ),
+              Text('Niter Computer club')
+            ],
+          )
+        ],
+      )
     );
   }
 }
@@ -64,3 +71,13 @@ child: Text('ghfdccukgxhjfvyukfgkuf'),
 ),
 ),
 )*/
+
+/*Image(
+image: NetworkImage('https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp'),
+),*/
+/*
+const CircleAvatar(
+backgroundColor: Colors.yellow,
+radius: 100,
+child: Icon(Icons.person,size: 100,),
+),*/
