@@ -45,3 +45,7 @@
 * Stateful Widget
 * Button Create
 * Counter app 
+
+## 7th Session
+* Bottom Navigation Bar
+* WhatsApp UI Design part-1
