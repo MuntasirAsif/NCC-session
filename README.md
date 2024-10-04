@@ -49,3 +49,8 @@
 ## 7th Session
 * Bottom Navigation Bar
 * WhatsApp UI Design part-1
+
+## 8th Session
+* pop up menu button
+* Stack widget
+* WhatsApp UI Design part-2
